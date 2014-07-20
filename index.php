@@ -1,4 +1,5 @@
 <?php
+// adding a comment
 require("inc/config.inc.php");
 error_reporting(0);
 if (!isset($_GET['file']) || ( !isset($_GET['depot']) && (!isset($_GET['toDepot']) || !isset($_GET['fromDepot'])) ) ) {
